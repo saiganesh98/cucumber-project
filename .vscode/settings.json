@@ -1,0 +1,12 @@
+{
+    "cucumber-quick": {
+		"tool": "cypress",
+		"script": "npx cypress-tags"
+    },   
+   "cucumberautocomplete.steps": [
+       "cypress/integration/**/*.js"
+    ],	
+    "cucumberautocomplete.syncfeatures": "cypress/integration/*.feature",
+    "java.configuration.updateBuildConfiguration": "interactive"
+
+}
